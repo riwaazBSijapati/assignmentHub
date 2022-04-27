@@ -21,12 +21,19 @@ body{
     font-family: 'Georgia', Garmond ;
 }
 
+ul{
+  list-style-image: url(http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/pie_icon.gif)}
+
+a:link{
+    color:#A4A400;
+}
+
 .tooltip {
     position: relative;
     display:inline-table;
     border-bottom: 1px dotted;
 }
-  
+
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
@@ -38,7 +45,7 @@ body{
     position: absolute;
     z-index: 1;
 }
-  
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
@@ -50,15 +57,13 @@ body{
     justify-content: center;
     font-style: italic;
 }
-a:link{
-    color:#A4A400;
-}
+
 #refs{
     text-align: left;
     text-align-last: right;
     font-family: monospace;
     width: 300px;
-    
+
 }
 #links{
     color: #A4A400;
