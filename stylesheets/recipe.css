@@ -1,0 +1,65 @@
+header{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial;
+    text-align: center;
+    font: 22pt bold;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+h2{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-align: left;
+    font: 18pt bold;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+body{
+    background-color: white;
+    font: #404040 11pt;
+    font-family: 'Georgia', Garmond ;
+}
+
+.tooltip {
+    position: relative;
+    display:inline-table;
+    border-bottom: 1px dotted;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.revs{
+    max-width: 90%;
+    background-color: #FFFFA8;
+    margin: 0 auto;
+    justify-content: center;
+    font-style: italic;
+}
+a:link{
+    color:#A4A400;
+}
+#refs{
+    text-align: left;
+    text-align-last: right;
+    font-family: monospace;
+    width: 300px;
+    
+}
+#links{
+    color: #A4A400;
+}
