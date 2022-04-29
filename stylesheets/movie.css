@@ -1,0 +1,119 @@
+/* primitives */
+body{
+    background-image: url("../images/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+/* class */
+.banner{
+    background-image: url("../images/bannerbg.png");
+    background-repeat: repeat-x;
+    display: block;
+    overflow:auto;
+    /* position:relative; */
+}
+.banner img{
+    /* display: flex; */
+    /* position:absolute; */
+    text-align: center;
+    justify-content: center;
+    left:0px;
+    right:0px;
+    margin:auto;
+}
+.titleYear{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma,Verdana,sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+.container{
+    border: 4px gray solid;
+    border-radius: 20px 20px;
+    overflow: hidden;
+    width:800px;
+    margin:auto;
+    max-width:100%;
+    height: auto;
+}
+
+.poster{
+    float:right; 
+    inline-size: 250px;   
+    background-color: #A2B964;
+}
+.poster>dl{
+    padding: 10pt 10pt 10pt 10pt;
+    font-size: 10pt;
+    font-family: Arial, sans-serif;
+}
+.poster>dl>dt{
+    font-weight: bold;
+    padding-top: 10pt;
+}
+.poster>dl>dd>ul{
+    list-style-type: none;
+    padding-left:0;
+}
+
+.rottenScoreBanner{
+    background-image: url("../images/rbg.png");
+    background-repeat: repeat-x;
+}
+.rottenScoreBanner>span{
+    vertical-align: bottom;
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+}
+
+.reviewsCol{
+    column-gap: 2%;
+    border-spacing: 2%;
+    padding: 2px 2px 2px 2px;
+    margin: 0 0 20pt 5pt;
+    display: grid;
+    grid-template-columns: 49% 48%;
+}
+.reviewsCol:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+.reviewsCol>div p:nth-child(odd){
+    background-color: #E8DC9B;
+    padding: 8px 8px 8px 8px;
+    font-size: 8pt;
+    font-weight: bold;
+    border: 2px gray solid;
+    border-radius: 10px 10px;
+    min-height: 25px;
+}
+.reviewsCol>div img{
+    float: left;
+    padding: 0 5px 0 0px;
+}
+
+.reviewsCol>div>p:nth-child(even)::first-line{
+    font-style: normal;
+}
+.reviewsCol>div>p:nth-child(even){
+    font-style: italic;
+    /* padding-bottom: 5%; */
+}
+.pageBar{
+    text-align: center;
+    background-color: #A2B964;
+    padding: 5px 0 5px;
+}
+.validators{
+    text-align: right;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    opacity: 50%;
+}
+
